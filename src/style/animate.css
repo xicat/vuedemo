@@ -1,0 +1,17 @@
+.a-rotateR90,.a-rotateL90{-webkit-animation:1.4s ease-out backwards;-moz-animation:1.4s ease-out backwards;-ms-animation:1.4s ease-out backwards;animation:1.4s ease-out backwards;}
+.a-rotateR90{
+    animation-name: rotateR90;	
+}
+.a-rotateL90{
+    animation-name: rotateL90;	
+}
+
+@keyframes rotateR90{
+    0%{transform:rotate(90deg);}
+    100%{transform:rotate(0deg);}
+}
+
+@keyframes rotateL90{
+    0%{transform:rotate(-90deg);}
+    100%{transform:rotate(0deg);}
+}

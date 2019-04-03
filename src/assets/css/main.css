@@ -1,0 +1,59 @@
+/* reset */
+html,body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,ul,ol,li,p,blockquote,pre,hr,figure,table,caption,th,td,form,fieldset,legend,input,button,textarea,menu{margin:0;padding:0;}
+header,footer,section,article,aside,nav,hgroup,address,figure,figcaption,menu,details{display:block;}
+table{border-collapse:collapse;border-spacing:0;}
+caption,th{text-align:left;font-weight:normal;}
+html,body,fieldset,img,iframe,abbr{border:0;}
+i,cite,em,var,address,dfn{font-style:normal;}
+[hidefocus],summary{outline:0;}
+li{list-style:none;}
+h1,h2,h3,h4,h5,h6,small{font-size:100%;}
+sup,sub{font-size:83%;}
+pre,code,kbd,samp{font-family:inherit;}
+q:before,q:after{content:none;}
+textarea{overflow:auto;resize:none;}
+label,summary{cursor:default;}
+a,button{cursor:pointer;}
+h1,h2,h3,h4,h5,h6,em,strong,b{font-weight:bold;}
+del,ins,u,s,a,a:hover{text-decoration:none;}
+body,textarea,input,button,select,keygen,legend{font:14px/1.14 arial,\5b8b\4f53;color:#333;outline:0;}
+body{background:#fff;}
+a,a:hover{color:#333;}
+html,body{padding: 0;margin: 0;width:100%;height:100%;}
+#app {
+text-align: center;
+position:relative;min-height:100%;_height:100%;
+}
+.container{}
+/* 导航栏 */
+.nav{display: flex;
+justify-content:space-around;
+align-items:center;
+height: 45px;
+background-color: blue;
+
+}
+.nav>a{text-align: center;color: #fff;}
+.nav .router-link-exact-active{
+	background-color: ;
+	color: #000;
+}
+
+
+
+footer{
+position:absolute;
+bottom: 0px;
+left:0px;
+width: 100%;
+background-color: #f5f6f5;
+border-top: 1px solid #ebebeb;
+height: 45px;
+line-height: 45px;
+text-align: left;
+}
+.nav> a{margin-left: 10px;}
+.none{display: none!important;}
+
+
+.animate{width:280px;height:100px;border-radius:5px;line-height:100px;text-align:center;color:#fff;background:#71acb9;}
